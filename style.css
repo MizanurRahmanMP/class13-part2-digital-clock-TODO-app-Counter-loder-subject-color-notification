@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Digital clock css code start */
+
+@font-face {
+    font-family: digital;
+    src: url(./font/mizan.ttf);
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+.clock{
+    width: 500px;
+    height: 400px;
+    margin: 200px auto 0;
+    font-size: 100px;
+    font-family: digital;
+    position: relative;
+}
+.clock .img img {
+    position: absolute;
+    width: 200px;
+}
+
+
+.clock .img .time{
+    position: relative;
+}
+
+.clock .img .time .hours {
+    color: tomato;
+    font-size: 30px;
+    position: absolute;
+    top: 92px;
+    left: 54px;
+    right: 0;
+}
+.clock .img .time .clon {
+    position: absolute;
+    top: 78px;
+    left: 84px;
+    font-size: 48px;
+    color: tomato;
+}
+.clock .img .time .min {
+    position: absolute;
+    color: turquoise;
+    font-size: 30px;
+    left: 92px;
+    top: 92px;
+}
+.clock .img .time .clon2 {
+    position: absolute;
+    font-size: 48px;
+    top: 78px;
+    left: 119px;
+    color: turquoise;
+}
+.clock .img .time .sec {
+    color: yellow;
+    position: absolute;
+    top: 98px;
+    left: 126px;
+    font-size: 25px;
+}
+span.ampm {
+    position: absolute;
+    color: red;
+    top: 124px;
+    font-size: 30px;
+    left: 83px;
+}
+.clock .img .time .day {
+    position: absolute;
+    color: magenta;
+    font-size: 21px;
+    top: 159px;
+    left: 69px;
+}
+.clock .img .time .date {
+    position: absolute;
+    box-sizing: border-box;
+    color: dodgerblue;
+    font-size: 20px;
+    left: 58px;
+    top: 182px;
+}
+
+/* Digital clock css code end */
+
+/* Counter loader css start */
+.loder{
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.lod{
+    border: 2px solid gray; 
+    border-radius: 100px;
+}
+/* counter loader css end */
+
+/* TO DO app css start */
+.todo_app{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TO DO app css edn */
+
+/* Subject marks with notificacion color css start*/
+
+table,
+td,
+th {
+    border: 1px solid #595959;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    padding: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+th {
+    background: #f0e6cc;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 128, 0, 0.192);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(45, 0, 128, 0.164);
+}
+
+input {
+    margin-bottom: 0 !important;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+
+input.mb-3 {
+    margin-bottom: 0 !important;
+}
+
+.input {
+    position: relative;
+}
+
+.input .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 31px;
+    pointer-events: none;
+}
+
+.input .icon span {
+    position: absolute;
+    font-size: 20px;
+    /* display: none; */
+}
+
+.input .icon span:first-child {
+    color: green;
+}
+
+.input .icon span:last-child {
+    color: red;
+}
+.result-body{
+   display: none;
+}
+/* Subject marks with notificacion color css end */
